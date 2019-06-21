@@ -4,7 +4,7 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 public abstract class People<E extends Person> implements Iterable<E> {
-    ArrayList<E> personList;
+    List<E> personList;
 
     public People(){
         this.personList = new ArrayList<>();
